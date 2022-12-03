@@ -1,0 +1,39 @@
+{
+	"manifest_version": 2,
+	"name": "HTTP Only Mode",
+	"short_name": "HTTP(!S)",
+	"description": "This extension will force all websites to use HTTP only.",
+	"version": "1.0",
+	"author": "Joshua Herron",
+	"icons": {
+		"16": "img/icon16.png",
+		"32": "img/icon32.png",
+		"48": "img/icon48.png",
+		"96": "img/icon96.png",
+		"128": "img/icon128.png"
+	},
+	"browser_action": {
+		"default_icon": {
+			"16": "img/icon16.png",
+			"32": "img/icon32.png"
+		},
+		"default_title": "HTTP Only Mode",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"storage",
+		"tabs",
+		"<all_urls>"
+	],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": true
+	},
+	"web_accessible_resources": [
+		"block.png",
+		"img/alert.svg",
+		"img/blocked.png"
+	]
+}

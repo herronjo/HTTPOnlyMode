@@ -1,0 +1,11 @@
+body {
+	color: white;
+	background-color: #0d002b;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	padding: 5px;
+	min-width: 300px;
+}
+
+button {
+	margin-left: 5px;
+}

@@ -1,0 +1,11 @@
+body {
+	color: white;
+	background-color: #8c1414;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	padding: 30px;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+}
