@@ -35,5 +35,10 @@
 		"block.png",
 		"img/alert.svg",
 		"img/blocked.png"
-	]
+	],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "httponlymode@joshiepoo.com"
+		}
+	}
 }
